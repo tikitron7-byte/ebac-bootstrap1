@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">  
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <a>Inicio</a>
+            <a>Usuario</a>
+            <a>Contacto</a>
+            <a>Más Artículos</a>
+        </nav>
+        <section class="header__section">
+            <h1>La Música</h1>
+            <p>La música se define tradicionalmente como el arte de organizar sensible y lógicamente sonidos y silencios, utilizando principios de melodía, armonía y ritmo, y generando efectos psicoemocionales en quienes la escuchan.  
+            Además, puede considerarse una ciencia, la musicología, que estudia sus estructuras, funciones y relaciones con otras disciplinas</p>
+        </section>
+    </header>
+
+    <main class="main">
+        <h2>Elementos fundamentales</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Ritmo: Organización temporal de los sonidos y silencios, creando patrones y compases que estructuran la pieza musical.</li>
+            <li class="list-group-item">Melodía: Sucesión de notas que forman una idea musical coherente, percibida como la "voz" principal de la obra.</li>
+            <li class="list-group-item">Armonía: Combinación simultánea de notas que acompañan y enriquecen la melodía, generando consonancia o disonancia.</li>
+            <li class="list-group-item">Timbre: Cualidad distintiva de un sonido que permite diferenciar instrumentos o voces.</li>
+            <li class="list-group-item">Textura: Forma en que se combinan las líneas melódicas y armónicas, pudiendo ser monofónica, homofónica o polifónica.</li>
+            <li class="list-group-item">Dinámica: Variaciones de volumen que aportan expresión y dramatismo a la música.</li>
+        </ul>
+        
+        <article>
+            <h3>Artistas Recomendados</h3>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Coldplay
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Coldplay es una famosa banda británica de pop rock alternativo formada en Londres en 1996.</strong> : Se conocieron en el University College de Londres y al principio se llamaron Pectoralz antes de cambiar al nombre actual en 1998.  Su primer álbum de estudio fue Parachutes, lanzado en el año 2000, que incluyó el éxito mundial  <code>Yellow</code> : Han vendido más de 100 millones de discos en todo el mundo y son considerados uno de los grupos más importantes del siglo XXI.
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Pomme
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Pomme (cuyo nombre real es Claire Isabelle Geo Pommet) es una famosa cantante, compositora y música francesa de música folk y pop.</strong>  Combina la música folk, el pop independiente y la tradición de la chanson francesa con letras íntimas y poéticas. <code></code>  Combina la música folk, el pop independiente y la tradición de la chanson francesa con letras íntimas y poéticas.
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Linkin Park
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Linkin Park es una famosa banda estadounidense de rock alternativo y nu metal formada en 1996 en Agoura Hills, California.</strong> El grupo comenzó bajo el nombre de Xero, creado por los amigos del instituto Mike Shinoda, Brad Delson y Rob Bourdon. Después sumaron a Joe Hahn, Dave Farrell y al icónico vocalista  <code>Chester Bennington,</code>cambiando su nombre definitivo. Su álbum debut de el año 2000, Hybrid Theory, se convirtió en un éxito mundial certificado como Diamante.
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="img/coldplay1.jpg" class="d-block w-100" alt="Colplay">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="img/coldplay2.jpg" class="d-block w-100" alt="Coldplay album">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="img/pomme1.jpg" class="d-block w-100" alt="Pomme album">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="img/pomme2.jpg" class="d-block w-100" alt="Pomme">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="img/linkin1.jpg" class="d-block w-100" alt="Linkin Park">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="img/linkin2.jpg" class="d-block w-100" alt="Linkin Park Album">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </article>
+
+
+        <article>
+            <div class="card" style="width: 18rem;">
+                <img src="img/song.jpg" class="card-img-top" alt="Sky Full of Stars">
+                <div class="card-body">
+                    <h5 class="card-title">Sky Full of Stars</h5>
+                    <p class="card-text">Es uno de los mayores exitos de la banda Británica Coldplay, siendo la más destacada de su albúm Ghost Stories.</p>
+                    <a href="#" class="btn btn-primary">Escuchar</a>
+                </div>
+            </div>
+
+        </article>
+
+
+    </main>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+</body>
+</html>
