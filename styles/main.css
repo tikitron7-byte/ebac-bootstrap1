@@ -1,0 +1,56 @@
+body {
+    background-color: #000;
+}
+
+.header__nav {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    background-color: #454545; 
+    color: #fbf7f7;
+    cursor: pointer;
+}
+
+.header__section {
+    text-align: center;
+    background-color: #696464;
+    color: #fbf7f7;
+}
+
+.list-group-item {
+    background-color: #696464;
+    color: #fbf7f7;
+}
+
+.main {
+    background-color: #454545;
+    color: #fbf7f7;
+}
+
+
+.main h2, .main h3 {
+    text-align: center;
+}
+
+.accordion-button {
+    background-color: #696464;
+    color: #fbf7f7;
+}
+.accordion-item {
+    background-color: #454545;
+    color: #fbf7f7;
+}
+
+.carousel {
+    width: 300px;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.card {
+    margin: 0 auto;
+}
